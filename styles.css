@@ -1,1 +1,81 @@
-/* Write your CSS here! */
+/* GENERAL STYLES */
+head {
+    background-color: oldlace;
+}
+
+body {
+    margin: 8px;
+    display: block;
+    background-color: #a19f99;
+    font-family: 'Bodoni MT';
+    border-style: double;
+    }
+
+main {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    }
+
+h2, h3 {
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 500px;
+    text-align: left;
+    font-size: 18px;
+    list-style-type: '\25B9';
+}
+
+figure {
+    width: 40%;
+    height: 100%;
+    background-color: oldlace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    text-align: center;
+    }
+
+figcaption{
+    background:oldlace;
+    color: black;
+    width:80%;
+    height:15%;
+    text-align:center;
+    padding:5px;
+}
+
+
+/* some other section here, idk */
+
+#mainHeading {
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#funParagraph {
+    color: green;
+}
+
+.listHeading {
+    color: green;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#topImage {
+    border-radius: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
