@@ -6,7 +6,7 @@ head {
 body {
     margin: 8px;
     display: block;
-    background-color: #a19f99;
+    background-color: #545454;
     font-family: 'Bodoni MT';
     border-style: double;
     }
@@ -32,23 +32,23 @@ p {
 }
 
 ul {
-    padding-left: 500px;
+    padding-left: 100px;
     text-align: left;
     font-size: 18px;
     list-style-type: '\25B9';
 }
 
 figure {
-    width: 40%;
+    width: 80%;
     height: 100%;
-    background-color: oldlace;
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
     text-align: center;
     }
 
 figcaption{
-    background:oldlace;
+    background:white;
     color: black;
     width:80%;
     height:15%;
@@ -57,19 +57,20 @@ figcaption{
 }
 
 
-/* some other section here, idk */
+/* Specific Classes/IDs */
 
 #mainHeading {
     color: red;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#funParagraph {
+.funParagraph {
     color: green;
+    font-size: 2px;
 }
 
 .listHeading {
-    color: green;
+    color: #52153c;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -78,4 +79,27 @@ figcaption{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #545454;
+}
+
+#wholePage {
+    background-color: #fcf2f0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    border-style: ridge;
+    /*border-color:rgba(0, 0, 0, 0.19);*/
+    border-width: 10px;
+}
+
+#divider {
+    display: block;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 50%;
 }
